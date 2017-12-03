@@ -16,7 +16,12 @@ body {
 /*page-title タイトル*/
 
 #page-title {
-    font-size: 33em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    /* Safari用 */
+    transform: translateY(-50%);
     color: #fafafa;
 }
 
@@ -43,4 +48,37 @@ body {
 .left-pane {
     height: 100%;
     background-color: #212121;
+}
+
+
+/*media query*/
+
+@media only screen and (min-width: 0px) {
+    #page-title {
+        font-size: 7em;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    #page-title {
+        font-size: 10em;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    #page-title {
+        font-size: 15em;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    #page-title {
+        font-size: 22em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #page-title {
+        font-size: 26em;
+    }
 }
