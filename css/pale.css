@@ -1,5 +1,6 @@
 html,
 body {
+    background-color: #f0efef;
     font-family: 'Megrim', cursive;
     height: 100%;
 }
@@ -11,12 +12,17 @@ body {
 }
 
 .main_col {
-    background-color: rgb(234, 233, 230);
+    background-color: #9FD9F6;
     height: 100%
 }
 
 p.text {
     font-size: 2em;
+    color: #f0efef;
+}
+
+#page-title {
+    color: #f0efef;
 }
 
 
