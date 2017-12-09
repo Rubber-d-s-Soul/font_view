@@ -1,0 +1,87 @@
+html,
+body {
+    font-family: 'Poiret One', cursive;
+    background-color: #fafafa;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.main_row {
+    height: 100%;
+    padding: 20px;
+    margin: 0px;
+}
+
+.main_col {
+    height: 100%
+}
+
+p.text {
+    font-size: 2em;
+}
+
+.side {
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    /* Safari用 */
+    transform: translateY(-50%);
+    font-size: 20em;
+}
+
+.side.simulacra {
+    color: rgba(203, 153, 148, 0.5);
+}
+
+.side.simulacre {
+    color: rgba(137, 177, 199, 0.5);
+    top: -93px;
+    left: -11px;
+}
+
+div.menu {
+    text-align: center;
+    position: relative;
+    top: -100%;
+    -webkit-transform: translateY(-50%);
+    /* Safari用 */
+    transform: translateY(-50%);
+}
+
+.row div.menu .col.s3 {
+    height: 175px;
+}
+
+
+/*media query*/
+
+@media only screen and (min-width: 0px) {
+    #page-title {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    #page-title {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    #page-title {
+        font-size: 6em;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    #page-title {
+        font-size: 10em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #page-title {
+        font-size: 10em;
+    }
+}
