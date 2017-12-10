@@ -1,0 +1,100 @@
+html,
+body {
+    background-color: #f0efef;
+    font-family: 'Syncopate', sans-serif;
+    height: 100%;
+}
+
+.main_row {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.row .col {
+    padding: 0;
+}
+
+.main_col {
+    height: 45%;
+    background-color: rgb(213, 20, 43);
+}
+
+.content {
+    height: 100%;
+}
+
+
+/*nav bar */
+
+nav {
+    background-color: #f0efef;
+    color: rgb(213, 20, 43);
+}
+
+nav .brand-logo {
+    color: rgb(213, 20, 43);
+    padding-left: 10px;
+}
+
+nav ul a {
+    color: rgb(213, 20, 43);
+}
+
+nav,
+nav .nav-wrapper i,
+nav a.sidenav-trigger,
+nav a.sidenav-trigger i {
+    height: 45px;
+    line-height: 45px;
+}
+
+#page-title {
+    color: #f0efef;
+    position: absolute;
+}
+
+.red {
+    background-color: rgb(213, 20, 43);
+}
+
+.red-1 {
+    background-color: rgb(158, 15, 34);
+}
+
+.red-2 {
+    background-color: rgb(224, 25, 51);
+}
+
+
+/*media query*/
+
+@media only screen and (min-width: 0px) {
+    #page-title {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    #page-title {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    #page-title {
+        font-size: 6em;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    #page-title {
+        font-size: 13em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #page-title {
+        font-size: 15em;
+    }
+}

@@ -1,0 +1,78 @@
+html,
+body {
+    background-color: #f0efef;
+    font-family: 'Rozha One', serif;
+    height: 100%;
+}
+
+.main_row {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+div.row .col {
+    padding: 0;
+}
+
+.main_col {
+    height: 100%;
+}
+
+.content {
+    height: 100%;
+}
+
+#page-title {
+    color: #888;
+    position: absolute;
+}
+
+.green-1 {
+    background-color: rgb(133, 195, 157);
+}
+
+.green-2 {
+    background-color: rgb(232, 240, 238);
+}
+
+.green-3 {
+    background-color: rgb(135, 168, 147);
+}
+
+.beige-1 {
+    background-color: rgb(230, 230, 230);
+}
+
+
+/*media query*/
+
+@media only screen and (min-width: 0px) {
+    #page-title {
+        font-size: 3em;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    #page-title {
+        font-size: 5em;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    #page-title {
+        font-size: 6em;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    #page-title {
+        font-size: 13em;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #page-title {
+        font-size: 18em;
+    }
+}
