@@ -3,13 +3,14 @@ body {
     font-family: 'Poiret One', cursive;
     background-color: #fafafa;
     height: 100%;
-    overflow-y: hidden;
+    /*  overflow-y: hidden;*/
 }
 
 .main_row {
     height: 100%;
     padding: 20px;
     margin: 0px;
+    position: relative;
 }
 
 .main_col {
@@ -20,14 +21,20 @@ p.text {
     font-size: 2em;
 }
 
+#title {
+    text-align: center;
+}
+
 .side {
     text-align: center;
-    position: relative;
+    position: absolute;
+    font-size: 11em;
     top: 50%;
-    -webkit-transform: translateY(-50%);
+    left: 50%;
+    margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
     /* Safari用 */
-    transform: translateY(-50%);
-    font-size: 20em;
+    transform: translate(-50%, -50%);
 }
 
 .side.simulacra {
@@ -36,21 +43,75 @@ p.text {
 
 .side.simulacre {
     color: rgba(137, 177, 199, 0.5);
-    top: -93px;
-    left: -11px;
+    left: 49.6%;
 }
 
 div.menu {
     text-align: center;
-    position: relative;
+    /*position: relative;
     top: -100%;
     -webkit-transform: translateY(-50%);
-    /* Safari用 */
-    transform: translateY(-50%);
+    /* Safari用 
+    transform: translateY(-50%);*/
 }
 
 .row div.menu .col.s3 {
     height: 175px;
+    padding-top: 80px;
+    color: transparent;
+}
+
+
+/*hover*/
+
+.row div.menu .col.s3#blog_link:hover {
+    background-color: #f0f8ff;
+    color: #999;
+}
+
+.row div.menu .col.s3#ghost_link:hover {
+    background-color: #f8f8ff;
+    color: #999;
+}
+
+.row div.menu .col.s3#baby_link:hover {
+    background-color: #fefefa;
+    color: #999;
+}
+
+.row div.menu .col.s3#mint_link:hover {
+    background-color: #fffaf0;
+    color: #999;
+}
+
+.row div.menu .col.s3#love_link:hover {
+    background-color: rgba(255, 240, 245, 0.7);
+    color: #999;
+}
+
+.row div.menu .col.s3#rose_link:hover {
+    background-color: rgba(255, 228, 225, 0.7);
+    color: #999;
+}
+
+.row div.menu .col.s3#honey_link:hover {
+    background-color: rgba(240, 255, 240, 0.8);
+    color: #999;
+}
+
+.row div.menu .col.s3#light_link:hover {
+    background-color: rgba(255, 255, 224, 0.5);
+    color: #999;
+}
+
+.row div.menu .col.s3#azure_link:hover {
+    background-color: #e6fdfd;
+    color: #999;
+}
+
+.row div.menu .col.s3:hover {
+    background-color: #f0ffff;
+    color: #999;
 }
 
 
@@ -85,3 +146,12 @@ div.menu {
         font-size: 10em;
     }
 }
+
+
+/*aliceblue #f0f8ff*/
+
+
+/*light yellow #ffffe0*/
+
+
+/*azuremist #f0ffff*/
