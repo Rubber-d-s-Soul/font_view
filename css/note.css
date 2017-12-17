@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+}
+
+.wf-notosansjapanese {
+    font-family: "Noto Sans Japanese";
+    font-weight: lighter;
+}
+
+.siimple-grid {
+    height: 93%;
+}
+
+.siimple-grid-row {
+    height: 100%;
+}
+
+.siimple-grid-col {
+    height: 90%;
+    margin-left: 80px;
+}
+
+.siimple-grid-col--12 {
+    width: calc(99.99% - 80px - 80px);
+    background: linear-gradient(170deg, #737bf2 0%, #fc6f97 100%);
+    color: #fff;
+}
+
+.siimple-jumbotron-title {
+    font-size: 80px
+}
+
+.siimple-jumbotron-subtitle {
+    margin-top: 60px;
+}
+
+.siimple-footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.siimple-layout {
+    text-align: center;
+}
+
+.note_main {
+    height: 63%;
+}
+
+.enter_btn {
+    margin-top: 40px;
+    opacity: 0.3;
+}
