@@ -4,10 +4,40 @@ body {
     background-color: #fafafa;
     height: 100%;
     /*  overflow-y: hidden;*/
+    width: unset;
 }
 
+
+/*header*/
+
+nav {
+    background-color: transparent;
+    box-shadow: unset;
+    width: 100%;
+}
+
+nav ul a {
+    color: #999;
+}
+
+.dropdown-content li>a,
+.dropdown-content li>span {
+    color: #999;
+}
+
+.dropdown-content li {
+    background-color: #fafafa;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+
+/*main*/
+
 .main_row {
-    height: 100%;
+    height: 75%;
     padding: 20px;
     margin: 0px;
     position: relative;
@@ -28,7 +58,6 @@ p.text {
 .side {
     text-align: center;
     position: absolute;
-    font-size: 11em;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -56,7 +85,7 @@ div.menu {
 }
 
 .row div.menu .col.s3 {
-    height: 175px;
+    height: 160px;
     padding-top: 80px;
     color: transparent;
 }
@@ -121,10 +150,16 @@ div.menu {
     #page-title {
         font-size: 3em;
     }
+    .side {
+        font-size: 5em;
+    }
 }
 
 @media only screen and (min-width: 460px) {
     #page-title {
+        font-size: 5em;
+    }
+    .side {
         font-size: 5em;
     }
 }
@@ -133,17 +168,26 @@ div.menu {
     #page-title {
         font-size: 6em;
     }
+    .side {
+        font-size: 7em;
+    }
 }
 
 @media only screen and (min-width: 993px) {
     #page-title {
         font-size: 10em;
     }
+    .side {
+        font-size: 11em;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
     #page-title {
         font-size: 10em;
+    }
+    .side {
+        font-size: 11em;
     }
 }
 

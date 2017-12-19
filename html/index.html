@@ -9,12 +9,28 @@
     <title>[ Simulacra-Simulacre ]Top Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../css/index.css">
 </head>
 
 <body>
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <ul id="nav-mobile" class="right  menu">
+                    <li><a class="dropdown-trigger " data-target="dropdown1"><i class="material-icons">menu</i></a></li>
+                </ul>
+                <!-- Dropdown Structure -->
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a class="disabled">About</a></li>
+                    <li><a class="disabled">Profile</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a class="disabled">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="row main_row">
-
         <div class="side simulacra">Simulacra</div>
         <div class="side simulacre">Simulacre</div>
         <div class="col s12 menu">

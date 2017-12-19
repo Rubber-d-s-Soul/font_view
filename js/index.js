@@ -1,5 +1,7 @@
 $(function() {
 
+    $('.dropdown-trigger').dropdown();
+
     $("div.menu div.col").on("click", function() {
 
         var url = $(this).attr('value');
@@ -8,4 +10,6 @@ $(function() {
         }
 
     });
+
+
 })
